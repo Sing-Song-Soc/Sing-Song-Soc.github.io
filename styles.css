@@ -7,13 +7,17 @@ p {
     color: black;
 }
 
-#old {
+.new {
     color: black;
+}
+
+.old {
+    color: rgb(20, 154, 12);
     font-style: italic;
 }
 
 h1 {
-    color:black
+    color:black;
 }
 
 a:link {
