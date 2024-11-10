@@ -5,3 +5,7 @@ body {
 a {
     color: rgb(20, 212, 4);
 }
+
+a:visited{
+    color: rgb(20, 212, 4);
+}
