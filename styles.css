@@ -3,6 +3,19 @@ body {
 	background-color: rgb(256, 244, 188);
 }
 
+p {
+    color: black;
+}
+
+#old {
+    color: black;
+    font-style: italic;
+}
+
+h1 {
+    color:black
+}
+
 a:link {
     color: rgb(20, 212, 4);
     text-decoration: none;
