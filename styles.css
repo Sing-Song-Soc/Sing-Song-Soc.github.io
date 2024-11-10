@@ -1,12 +1,7 @@
-* {
-	box-sizing: border-box;
-  }
-
 head {
 	background-color: rgb(20, 212, 4);
 }
 
 body {
-	margin: 0px 10%;
 	background-color: rgb(256, 244, 188);
 }
