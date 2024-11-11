@@ -47,26 +47,6 @@ ol {
     font-size: 10pt;
 }
 
-a:link {
-    color: var(--lighter);
-    text-decoration: none;
-}
-
-a:visited {
-    color: var(--lighter);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--darker);
-    text-decoration: underline;
-}
-
-a:active {
-    color: black;
-    text-decoration: none;
-}
-
 /* Navbar container */
 .navbar {
     overflow: hidden;
@@ -134,4 +114,24 @@ a:active {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+a:link {
+    color: var(--lighter);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--lighter);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--darker);
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
 }
