@@ -20,16 +20,6 @@ p {
     font-size: 12pt;
 }
 
-.new {
-    color: black;
-    font-style: normal;
-}
-
-.old {
-    color: var(--darker);
-    font-style: italic;
-}
-
 h1 {
     color:black;
     font-size: 36pt;
@@ -45,6 +35,16 @@ h3 {
 
 ol {
     font-size: 10pt;
+}
+
+.new {
+    color: black;
+    font-style: normal;
+}
+
+.old {
+    color: var(--darker);
+    font-style: italic;
 }
 
 /* Navbar container */
