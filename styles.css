@@ -44,7 +44,8 @@ ol {
 }
 
 img {
-    border: 5px solid var(--darker);
+    border: 5px solid;
+    border-color: var(--darker);
   }
 
 /* Navbar container */
