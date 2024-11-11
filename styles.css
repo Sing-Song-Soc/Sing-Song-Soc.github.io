@@ -1,6 +1,13 @@
+@font-face {
+    font-family: "Shrikhand";
+    src: url(Shrikhand-Regular.ttf) format("truetype");
+
+}
+
 body {
     margin: 0px 10%;
 	background-color: rgb(256, 244, 188);
+    font-family: "Shrikhand";
 }
 
 p {
@@ -20,11 +27,19 @@ p {
 
 h1 {
     color:black;
-    font-size: 30pt;
+    font-size: 36pt;
 }
 
 h2 {
     font-size: 12pt;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+ol {
+    font-size: 10pt;
 }
 
 a:link {
