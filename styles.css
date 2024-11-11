@@ -116,22 +116,22 @@ ol {
   display: block;
 }
 
-a:link {
+.new a:link, .old a:link, .new a:visited, .old a:visited {
     color: var(--lighter);
     text-decoration: none;
 }
 
-a:visited {
-    color: var(--lighter);
-    text-decoration: none;
-}
-
-a:hover {
+.new a:hover, .old a:hover {
     color: var(--darker);
     text-decoration: underline;
 }
 
-a:active {
+.new a:active {
     color: black;
     text-decoration: none;
+}
+
+.old a:active {
+    color: var(darker);
+    text-decoration:none;
 }
