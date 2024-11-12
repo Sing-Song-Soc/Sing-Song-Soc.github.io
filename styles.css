@@ -1,6 +1,8 @@
 :root {
     --darker: rgb(20, 154, 12);
     --lighter: rgb(20, 212, 4);
+    --lightblue: rgb(136, 177, 242);
+    --darkblue: rgb(66, 107, 172);
 }
 
 @font-face {
@@ -122,22 +124,28 @@ img {
   display: block;
 }
 
-.new a:link, .old a:link, .new a:visited, .old a:visited {
-    color: var(--lighter);
+.new a:link, .old a:link, .new a:visited, .old a:visited, .socialmedia a:link, .socialmedia a:visited {
+    color: var(--darkblue);
     text-decoration: none;
 }
 
 .new a:hover, .old a:hover {
-    color: var(--darker);
+    color: var(--lightblue);
     text-decoration: underline;
 }
 
-.new a:active {
+.new a:active, .socialmedia a:active, .socialmedia a:hover{
     color: black;
     text-decoration: none;
 }
 
 .old a:active {
-    color: var(darker);
+    color: var(--darker);
     text-decoration:none;
+}
+
+.socialmedia {
+    text-align:center;
+    background-color: var(--lighter);
+    color: black;
 }
