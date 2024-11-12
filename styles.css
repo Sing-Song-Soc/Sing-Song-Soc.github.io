@@ -29,6 +29,8 @@ h1 {
 
 h2 {
     font-size: 14pt;
+    color:black;
+    text-decoration:underline;
 }
 
 h3 {
