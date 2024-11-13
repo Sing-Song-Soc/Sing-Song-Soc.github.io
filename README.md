@@ -5,7 +5,7 @@ Started 10/11/2024
 
 Credits:
 
-Stuart Roberts - original content from wikidot site
+Stuart Roberts - original content from wikidot site (licensed under CC BY-SA 3.0)
 
 Freya Goodger - creation of new site
 
