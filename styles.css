@@ -5,16 +5,52 @@
     --darkblue: rgb(66, 107, 172);
 }
 
-@font-face {
+/*@font-face {
     font-family: "Shrikhand";
     src: url(Shrikhand-Regular.ttf) format("truetype");
 
+}*/
+
+@font-face {
+    font-family: "Cooper";
+    src:    url("cooper/fonts/webfonts/Cooper-Bold.woff2") format("woff2"),
+            url("cooper/fonts/otf/Cooper-Bold.otf") format("opentype"),
+            url("cooper/fonts/ttf/Cooper-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cooper";
+    src:    url("cooper/fonts/webfonts/Cooper-Black.woff2") format("woff2"),
+            url("cooper/fonts/otf/Cooper-Black.otf") format("opentype"),
+            url("cooper/fonts/ttf/Cooper-Black.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cooper";
+    src:    url("cooper/fonts/webfonts/Cooper-BoldItalic.woff2") format("woff2"),
+            url("cooper/fonts/otf/Cooper-BoldItalic.otf") format("opentype"),
+            url("cooper/fonts/ttf/Cooper-BoldItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cooper";
+    src:    url("cooper/fonts/webfonts/Cooper-BlackItalic.woff2") format("woff2"),
+            url("cooper/fonts/otf/Cooper-BlackItalic.otf") format("opentype"),
+            url("cooper/fonts/ttf/Cooper-BlackItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
 }
 
 body {
     margin: 0px 10%;
 	background-color: rgb(256, 244, 188);
-    font-family: "Shrikhand";
+    font-family: "Cooper";
 }
 
 p {
@@ -25,17 +61,19 @@ p {
 h1 {
     color:black;
     font-size: 36pt;
+    margin-top: 12pt;
+    margin-bottom: 13pt;
 }
 
 h2 {
-    font-size: 14pt;
+    font-size: 16pt;
     color:black;
     text-decoration:underline;
 }
 
 h3 {
     color: black;
-    font-size: 24pt;
+    font-size: 26pt;
     margin-top: 10pt;
     margin-bottom: 0;
 }
