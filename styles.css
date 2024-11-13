@@ -5,12 +5,6 @@
     --darkblue: rgb(66, 107, 172);
 }
 
-/*@font-face {
-    font-family: "Shrikhand";
-    src: url(Shrikhand-Regular.ttf) format("truetype");
-
-}*/
-
 @font-face {
     font-family: "Cooper";
     src:    url("cooper/fonts/webfonts/Cooper-Bold.woff2") format("woff2"),
