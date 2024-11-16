@@ -76,6 +76,13 @@ ol {
     font-size: 10pt;
 }
 
+figure {
+    float: left;
+    margin-right: 20px; 
+    margin-left: 0; 
+    margin-top: 0;
+}
+
 .new {
     color: black;
     font-style: normal;
