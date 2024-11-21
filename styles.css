@@ -49,7 +49,7 @@ body {
 
 p {
     color: black;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-    font-size: 16pt;
+    font-size: 20pt;
     color:black;
     text-decoration:underline;
 }
@@ -73,7 +73,7 @@ h3 {
 }
 
 ol {
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 ul {
@@ -177,17 +177,17 @@ img {
   display: block;
 }
 
-.new a:link, .old a:link, .new a:visited, .old a:visited, .socialmedia a:link, .socialmedia a:visited {
+.new a:link, .old a:link, .new a:visited, .old a:visited, .socialmedia a:link, .socialmedia a:visited, .image-container a:link {
     color: var(--darkblue);
     text-decoration: none;
 }
 
-.new a:hover, .old a:hover {
+.new a:hover, .old a:hover, .image-container a:hover{
     color: var(--lightblue);
     text-decoration: underline;
 }
 
-.new a:active, .socialmedia a:active, .socialmedia a:hover{
+.new a:active, .socialmedia a:active, .socialmedia a:hover, .image-container a:active {
     color: black;
     text-decoration: none;
 }
@@ -201,4 +201,27 @@ img {
     text-align:center;
     background-color: var(--lighter);
     color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.image-item {
+    text-align:center;
+    font-size: 16pt;
+    height:auto;
+    width:30%;
+}
+
+.image-item img {
+    aspect-ratio: 1/1;
+}
+
+.main-page {
+    font-size: 20pt;
+    text-align: center;
 }
