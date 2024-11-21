@@ -214,6 +214,7 @@ img {
     text-align:center;
     font-size: 16pt;
     width:30%;
+    object-fit: fill;
 }
 
 .image-item img {
