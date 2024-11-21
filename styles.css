@@ -177,7 +177,7 @@ img {
   display: block;
 }
 
-.new a:link, .old a:link, .new a:visited, .old a:visited, .socialmedia a:link, .socialmedia a:visited, .image-container a:link {
+.new a:link, .old a:link, .new a:visited, .old a:visited, .socialmedia a:link, .socialmedia a:visited, .image-container a:link, .image-container a:link {
     color: var(--darkblue);
     text-decoration: none;
 }
@@ -213,13 +213,12 @@ img {
 .image-item {
     text-align:center;
     font-size: 16pt;
-    height:auto;
     width:30%;
 }
 
 .image-item img {
-    aspect-ratio: 1/1;
     width:100%;
+    aspect-ratio: 1/1;
 }
 
 .main-page {
