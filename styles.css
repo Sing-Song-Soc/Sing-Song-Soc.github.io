@@ -177,7 +177,7 @@ img {
   display: block;
 }
 
-.new a:link, .old a:link, .new a:visited, .old a:visited, .socialmedia a:link, .socialmedia a:visited, .image-container a:link, .image-container a:link {
+.new a:link, .old a:link, .new a:visited, .old a:visited, .socialmedia a:link, .socialmedia a:visited, .image-container a:link, .image-container a:visited {
     color: var(--darkblue);
     text-decoration: none;
 }
@@ -217,7 +217,6 @@ img {
 }
 
 .image-item img {
-    width:100%;
     aspect-ratio: 1/1;
 }
 
