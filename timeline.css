@@ -1,0 +1,73 @@
+:root {
+    --darker: rgb(20, 154, 12);
+    --lighter: rgb(20, 212, 4);
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    background-color: var(--darker);
+    top: 0px;
+    bottom: 0;
+    left: 28px;
+}
+  
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+}
+  
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: rgb(255, 254, 239);
+    border: 4px solid var(--lighter);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    left: 15px;
+}
+  
+/* Add arrows to the right container (pointing left) */
+.container::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 60px;
+    border: medium solid rgb(255, 254, 239);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(255, 254, 239) transparent transparent;
+}
+  
+/* The actual content */
+.content {
+    padding: 5px 30px;
+    background-color: rgb(255, 254, 239);
+    position: relative;
+    border-radius: 6px;
+}   
+
+.timeline h2 {
+    margin-top:0;
+}
