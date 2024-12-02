@@ -9,6 +9,14 @@ Stuart Roberts - original content from wikidot site (licensed under CC BY-SA 3.0
 
 Freya Goodger - creation of new site
 
+Maddie Jones - various recollections, feedback and moral support
+
+Jez Piper - provided Winter 2021 concert programme
+
+Lily Penny, Phoebe Leonard - provided various names
+
+Eleanor Bennett - helped a lot with Blackpool residential
+
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
